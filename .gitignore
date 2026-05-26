@@ -1,0 +1,31 @@
+# Credenciais — NUNCA commitar este arquivo
+.env
+
+# Estado do bot (contém dados de posição em tempo real)
+bot_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+logs/
