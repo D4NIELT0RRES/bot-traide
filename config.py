@@ -1,18 +1,13 @@
+# config.py
 import os
-from dotenv import load_dotenv
 
-# Carrega chaves do arquivo .env
-load_dotenv()
-
-API_KEY = os.getenv('BINANCE_API_KEY')
-SECRET = os.getenv('BINANCE_API_SECRET')
+API_KEY = "S87uKrR97EiYISlaWP0AYWaReJ7dvXp3Yk7Livag0OFjRRtRR7pmltka6ROSqy0b"
+SECRET = "kavWgrtW1jenQ8FbF0hoJNkrChu0yFDyfygGRrA8HfPMHchPlI2bRMoKJRU25lPT"
 
 SYMBOL = 'BTC/USDT'
 TIMEFRAME = '5m'
 
-# Gerenciamento de Risco
-STOP_LOSS = 0.98         # -2%
-TAKE_PROFIT = 1.03       # +3%
-TRAILING_STOP_PCT = 0.015 # 1.5% de recuo máximo
+STOP_LOSS = 0.98    # -2%
+TAKE_PROFIT = 1.03  # +3%
 
 STATE_FILE = 'bot_state.json'
