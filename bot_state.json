@@ -1,7 +1,7 @@
 {
     "position": null,
     "entry_price": 0.0,
-    "last_candle_time": 1779830700000,
+    "last_candle_time": 1779927300000,
     "trade_log": [],
     "history_candles": [
         {
@@ -406,9 +406,9 @@
         }
     ],
     "high_price": 0.0,
-    "current_price": 76040.01,
-    "rsi": 49.86080249295211,
-    "last_update": "18:25:59",
+    "current_price": 74567.62,
+    "rsi": 50.29665590781729,
+    "last_update": "21:22:00",
     "history": [
         {
             "Hor\u00e1rio": "17:20:46",

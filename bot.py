@@ -118,7 +118,6 @@ while True:
 
             bot_state.update({
                 "current_price": current_price,
-                "rsi": float(df['rsi'].iloc[-1]) if not pd.isna(df['rsi'].iloc[-1]) else 50.0,
                 "last_update": datetime.now().strftime("%H:%M:%S")
             })
             save_state(bot_state)
