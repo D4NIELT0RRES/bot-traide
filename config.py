@@ -1,13 +1,19 @@
 # config.py
 import os
+from dotenv import load_dotenv
 
-API_KEY = "S87uKrR97EiYISlaWP0AYWaReJ7dvXp3Yk7Livag0OFjRRtRR7pmltka6ROSqy0b"
-SECRET  = "kavWgrtW1jenQ8FbF0hoJNkrChu0yFDyfygGRrA8HfPMHchPlI2bRMoKJRU25lPT"
+load_dotenv()
 
-SYMBOL    = 'BTC/USDT'
-TIMEFRAME = '15m'          # ← alterado para 15 minutos
+API_KEY = os.getenv('BINANCE_API_KEY', '')
+SECRET  = os.getenv('BINANCE_API_SECRET', '')
 
-STOP_LOSS   = 0.98         # -2%
-TAKE_PROFIT = 1.03         # +3%
+SYMBOL          = 'BTC/USDT'
+TIMEFRAME       = '15m'
 
-STATE_FILE = 'bot_state.json'
+STOP_LOSS       = 0.98    # -2%
+TAKE_PROFIT     = 1.03    # +3%
+TRADE_SIZE_PCT  = 0.30    # 30% do saldo USDT por operação (gestão de risco)
+COOLDOWN_BARS   = 3       # mínimo 3 candles entre trades (~45min no 15m)
+
+STATE_FILE      = 'bot_state.json'
+CONTROL_FILE    = 'bot_control.json'
