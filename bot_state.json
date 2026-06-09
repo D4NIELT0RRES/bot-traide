@@ -1,8 +1,24 @@
 {
     "position": null,
+    "partial_taken": false,
     "entry_price": 0.0,
-    "last_candle_time": 1779927300000,
+    "last_candle_time": 1780959600000,
+    "last_trade_candle": 0,
     "trade_log": [],
+    "stats": {
+        "wins": 0,
+        "losses": 0,
+        "total_pnl": 0.0,
+        "best": 0.0,
+        "worst": 0.0
+    },
+    "paused": false,
+    "current_price": 63558.0,
+    "last_update": "20:09:45",
+    "usdt_balance": 0.0,
+    "btc_balance": 0.0,
+    "uptime_start": 1780960199,
+    "last_heartbeat": 1780973159,
     "history_candles": [
         {
             "time": 1779812700,
@@ -406,9 +422,7 @@
         }
     ],
     "high_price": 0.0,
-    "current_price": 74567.62,
     "rsi": 50.29665590781729,
-    "last_update": "21:22:00",
     "history": [
         {
             "Hor\u00e1rio": "17:20:46",
@@ -658,5 +672,6 @@
     ],
     "smma3": 76082.20373083376,
     "smma8": 76035.23760902305,
-    "smma20": 76117.0703665069
+    "smma20": 76117.0703665069,
+    "last_update_ts": 1780960185
 }
